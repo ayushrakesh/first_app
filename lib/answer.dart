@@ -17,7 +17,7 @@ class Answer extends StatelessWidget {
           style: TextStyle(
             color: Colors.blue.shade600,
             fontSize: 18,
-            letterSpacing: 1.0,
+            letterSpacing: 1.1,
           ),
         ),
       ),
