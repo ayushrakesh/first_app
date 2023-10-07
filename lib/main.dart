@@ -6,16 +6,12 @@ import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 
 void main(List<String> args) {
-  // dev-----//
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // final width = Get.width;
-    // final height = Get.height;
-
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(
